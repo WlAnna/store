@@ -1,0 +1,817 @@
+{
+    "products": [
+        {
+            "productID" : "1",
+            "productName" : "Green Tea Soap",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "SPA",
+            "productCategory1" : "Soaps",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_1.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural green tea extract",
+            "color":"",
+            "newArrivals" : true,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "3"}
+            ]
+        },
+        {
+            "productID" : "2",
+            "productName" : "Rose Soap",
+            "productPrice" : "5",
+            "productPriceFormated" : "£ 5.00",
+            "productCategory0" : "SPA",
+            "productCategory1" : "Soaps",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_2.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of rose leafs with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural rose oil",
+            "color":"",
+            "newArrivals" : true,
+            "relatedProducts": [
+                {"productID": "1"},
+                {"productID": "3"}
+            ]
+        },
+        {
+            "productID" : "3",
+            "productName" : "Black Sea Salt Soap",
+            "productPrice" : "8",
+            "productPriceFormated" : "£ 8.00",
+            "productCategory0" : "SPA",
+            "productCategory1" : "Body Care",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_3.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the sea salt and the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural sea salt",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "4",
+            "productName" : "Cinnamon Soap",
+            "productPrice" : "7",
+            "productPriceFormated" : "£ 7.00",
+            "productCategory0" : "SPA",
+            "productCategory1" : "Soaps",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_4.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with cinnamon and the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, cinnamon",
+            "color":"",
+            "newArrivals" : true,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "5",
+            "productName" : "Camomile Soap",
+            "productPrice" : "3",
+            "productPriceFormated" : "£ 3.00",
+            "productCategory0" : "SPA",
+            "productCategory1" : "Soaps",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_5.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of camomile with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural camomile",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "6",
+            "productName" : "Lavender Soap",
+            "productPrice" : "4",
+            "productPriceFormated" : "£ 4.00",
+            "productCategory0" : "SPA",
+            "productCategory1" : "Soaps",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_6.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of lavender with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "8",
+            "productName" : "Panther Blouse",
+            "productPrice" : "19",
+            "productPriceFormated" : "£ 19.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Blouses",
+            "size" : [
+                {"S" : "null"},
+                {"M" : "null"},
+                {"L" : "0"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_8.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "9",
+            "productName" : "Shinny V-neck Sweater",
+            "productPrice" : "25",
+            "productPriceFormated" : "£ 25.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Sweaters",
+            "size" : [
+                {"S" : "null"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_9.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "10",
+            "productName" : "Flowery Dress",
+            "productPrice" : "19",
+            "productPriceFormated" : "£ 19.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Dresses",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "0"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_10.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "11",
+            "productName" : "Sequin Blouse",
+            "productPrice" : "19",
+            "productPriceFormated" : "£ 19.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Blouses",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "null"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_11.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "12",
+            "productName" : "Stylish blouse",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Blouses",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "null"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_12.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "13",
+            "productName" : "White sweater lace",
+            "productPrice" : "19",
+            "productPriceFormated" : "£ 19.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Sweaters",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_13.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "14",
+            "productName" : "Stylish Dress",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Dresses",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_14.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "15",
+            "productName" : "Flowery Dress Midi",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Dresses",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_15.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "16",
+            "productName" : "Black Sequin Sweater",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Sweaters",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_16.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "18",
+            "productName" : "Turquoise Swimming Suit",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Swimming Suits",
+            "size" : [
+                {"S" : "0"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_18.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "19",
+            "productName" : "Stylish Swimming Suit",
+            "productPrice" : "22",
+            "productPriceFormated" : "£ 22.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Swimming Suits",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_19.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "20",
+            "productName" : "Green Pattern Swimming Suit",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Swimming Suits",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_20.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "21",
+            "productName" : "White Lace Sweater",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Sweaters",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "null"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_21.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "22",
+            "productName" : "Black Stripes Swimming Suit",
+            "productPrice" : "25",
+            "productPriceFormated" : "£ 25.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Swimming Suits",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_22.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "23",
+            "productName" : "Pineapple Swimming Suit",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Clothes",
+            "productCategory1" : "Swimming Suits",
+            "size" : [
+                {"S" : "5"},
+                {"M" : "4"},
+                {"L" : "2"} 
+            ],
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_23.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "24",
+            "productName" : "Gray Bracelet",
+            "productPrice" : "15",
+            "productPriceFormated" : "£ 15.00",
+            "productCategory0" : "Accessories",
+            "productCategory1" : "Jewelry",
+            "productCategory2" : "Bracelets",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_24.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "25",
+            "productName" : "Mixed Bracelets",
+            "productPrice" : "19",
+            "productPriceFormated" : "£ 19.00",
+            "productCategory0" : "Accessories",
+            "productCategory1" : "Jewelry",
+            "productCategory2" : "Bracelets",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_25.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "26",
+            "productName" : "Green Necklace",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Accessories",
+            "productCategory1" : "Jewelry",
+            "productCategory2" : "Necklaces",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_26.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "27",
+            "productName" : "Gray Necklace",
+            "productPrice" : "29",
+            "productPriceFormated" : "£ 29.00",
+            "productCategory0" : "Accessories",
+            "productCategory1" : "Jewelry",
+            "productCategory2" : "Necklaces",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_27.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "28",
+            "productName" : "Golden mix bracelet",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "Accessories",
+            "productCategory1" : "Jewelry",
+            "productCategory2" : "Bracelets",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_28.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "29",
+            "productName" : "Boho mix bracelet",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "Accessories",
+            "productCategory1" : "Jewelry",
+            "productCategory2" : "Bracelets",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_29.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "30",
+            "productName" : "Beautiful bracelet",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "Accessories",
+            "productCategory1" : "Jewelry",
+            "productCategory2" : "Bracelets",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_30.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "31",
+            "productName" : "Silk Pillow",
+            "productPrice" : "40",
+            "productPriceFormated" : "£ 40.00",
+            "productCategory0" : "Home and Garden",
+            "productCategory1" : "Accessories",
+            "productCategory2" : "Bedding",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_31.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "32",
+            "productName" : "Coconut Candle",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "Home and Garden",
+            "productCategory1" : "Accessories",
+            "productCategory2" : "Candles",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_32.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "33",
+            "productName" : "Sweet Candles",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "Home and Garden",
+            "productCategory1" : "Accessories",
+            "productCategory2" : "Candles",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_33.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "34",
+            "productName" : "Beautiful Candles",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "Home and Garden",
+            "productCategory1" : "Accessories",
+            "productCategory2" : "Candles",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_34.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        },
+        {
+            "productID" : "35",
+            "productName" : "Silver Candles",
+            "productPrice" : "9",
+            "productPriceFormated" : "£ 9.00",
+            "productCategory0" : "Home and Garden",
+            "productCategory1" : "Accessories",
+            "productCategory2" : "Candles",
+            "inStock" : true,
+            "inStockDate" : "1/12/2020",
+            "productImage" : "images/image_35.jpg",
+            "shortDescription" : "Set of 6 bars of soap bar with the scent of green tea with the addition of natural ingredients",
+            "longDescription" : "",
+            "dimensions": "",
+            "purpose": "Relaxing and moisturizing the skin",
+            "ingredients": "Coconut oil, olive oil, sweet almond oil, sodium hydroxide, natural lavender oil",
+            "color":"",
+            "newArrivals" : false,
+            "relatedProducts": [
+                {"productID": "2"},
+                {"productID": "1"}
+            ]
+        }
+    ]
+}

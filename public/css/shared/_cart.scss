@@ -1,0 +1,134 @@
+.cart-container{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cart-content {
+    min-width: 70%;
+    margin: 0 auto; 
+  
+    @include mobile {
+        min-width: 90%;
+      }
+
+}
+
+.cart-row {
+    display: flex;
+    align-items: center;
+    border-bottom: .1px solid color(light-gray);
+
+}
+
+.cart-column {
+    display: flex;
+    font-size: size(s-size);
+    margin: .7rem 0;
+
+  
+}
+
+.cart-item {
+    width: 50%;
+}
+
+
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quantity {
+    width: 30%;
+}
+
+.cart-item-title {
+    margin-left: .5em;
+    font-size: 1.2em;
+    align-self: center;
+    display: block;
+    word-break: break-all; 
+    @include mobile {
+        font-size: size(s-size);
+        width: 30%;
+      }
+}
+
+.cart-item-image {
+    width: 7.5rem;
+    height: auto;
+}
+
+.cart-quantity-input {
+    width: 5rem;
+    padding-right: .2rem;
+    margin-right: 53%;
+    @include mobile {
+        margin-right: 23%;
+      }
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin: 2rem;
+
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: size(l-size);
+    margin-right: 1rem;
+}
+
+.cart-total-price {
+    font-size: size(l-size);
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: size(xl-size);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-x {
+    background-color: white;
+    color: color(main);
+    font-size: size(m-size);
+    padding: 0;
+    margin: 0;
+    width: 2rem;
+}
+
+.btn-x:hover {
+    background-color: white;
+    color: color(main);
+    font-size: size(m-size);
+}
+
+.cart-buttons-wrapper {
+    display: flex;
+}
+
+.continue-purchase-btn {
+  margin-right: 20px;
+  background-color: white;
+  padding: 1.5rem 0;
+  color: color(primary);
+  box-shadow: 1px 1px 6px -2px color(primary);
+}
+
+.continue-purchase-btn:hover {
+    background-color: color(primary-extreme-light);
+
+    box-shadow: 1px 1px 6px -2px color(primary);
+  }
+

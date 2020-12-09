@@ -1,0 +1,36 @@
+{
+    "nav": [
+        {
+            "productCategory0" : "ALL PRODUCTS"
+        },
+        {
+            "productCategory0" : "NEW ARRIVALS"
+        },
+        {
+            "productCategory0" : "CLOTHES",
+            "productCategory1" : ["BLOUSES", "SHORTS", "SKIRTS", "DRESSES", "SWIMMING COSTUMES"]
+        },
+        {
+            "productCategory0" : "ACCESSORIES",
+            "productCategory1" : ["JEWELRY"],
+            "productCategory3" : [
+                            {
+                                "JEWELRY": ["RINGS", "NECKLACE", "EARINGS", "BRACELETS", "COLLECTION CLASSIC" ]
+                            }
+            ]    
+        },
+        {
+            "productCategory0" : "SPA",
+            "productCategory1" : ["SOAPS", "BODY CARE", "GIFTS"]
+        },
+        {
+            "productCategory0" : "HOME & GARDEN",
+            "productCategory1" : ["ACCESSORIES", "BOOKS"],
+            "productCategory3" : [
+                            {
+                                "ACCESSORIES": ["BEDDING", "POSTERS", "CANDLES"]
+                            }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+<%- include('./partials/headerSearchList.ejs')%>
+<%- include('./partials/nav.ejs')%>
+
+<section class="content-section">
+    
+    <div class="shop-items single-shop-item" id="products" >
+        <div class="single-product shop-item  " data-item-id="<%= item.productID %>">
+            <div class="product-content">
+                <p><a target="_blank" href=""><img class="shop-item-image shop-item-image-single" height="674" width="512" src="../<%= item.productImage %>"></a><p>
+            </div>
+            <div class="product-content">
+                <span class="shop-item-title single-shop-item-title"><%= item.productName %></span>
+                <div class="shop-item-details">
+                    <span class="shop-item-price single-shop-item-price"><%= item.productPriceFormated %></span>
+                    <p><span>Description:</span><%= item.shortDescription %></p>
+                    <p><span>Application:</span><%= item.purpose %></p>
+                    <p><span>Ingredients:</span><%= item.ingredients %></p>
+                    <input type="number" id="quantity" name="quantity" class="shop-item-quantity" value="1">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+<section class="related-items-section ">
+    <h2 class="section-header span-xxl">RELATED PRODUCTS</h2>
+    <div class="related-items-inner">
+        <% relatedProducts.forEach(item => { %>
+            <div class="related-product-content" data-item-id="${item.productID}">
+                <div>
+                    <p><a target="_blank" href="/products/${item.productID}"><img class="shop-item-image-related shop-item-image-main" height="370" width="260" src="../images/image_<%= item.productID %>.jpg"></a><p>
+                </div>
+                <div class="shop-related-details">
+                    <span class="shop-item-title"><%= item.productName %></span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><%= item.productPriceFormated %></span>
+                        <label for="quantity"></label>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+</section>
+
+</section>
+
+<script src="/js/nav-total.js" defer></script>
+<script src="/js/functions.js" defer></script>
+<script src="/js/products.js" defer></script>
+<script src="/js/filters-cat.js" defer></script>
+<script src="/js/filters-size.js" defer></script>
+<script src="/js/search.js" defer></script>
+<script src="/js/nav-other.js" defer></script>

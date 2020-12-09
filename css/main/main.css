@@ -1,0 +1,69 @@
+/*@import 'shared/global.css';*/
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\variables.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\header.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\products.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\nav.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\cat.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\footer.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\contact.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\filters.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\product.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\cart.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\cart-summary.css);
+@import url(d:\z pulpitu\LIBRARY\shop js\po refaktoryzacji without qty under product new custom - nav i cat - with parcel\public\css\shared\search-menu.css);
+/* General Styles */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: var(--color-font);
+  color: red;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  border-top: .1px solid #eeeeee;
+  margin-top: 1.6rem;
+  padding: 8rem 0;
+}
+
+a:link {
+  color: var(--color-font);
+}
+
+a:visited {
+  color: var(--color-font);
+}
+
+a:hover {
+  color: var(--color-font);
+}
+
+a:active {
+  color: var(--color-font);
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=text] {
+  border: 0.1px solid var(--color-outline);
+}
+/*# sourceMappingURL=main.css.map */

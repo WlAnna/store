@@ -1,0 +1,31 @@
+input {
+    border: 1px solid #E1E1E1;
+    padding: 12px 14px;
+    margin: .5rem 0;
+}
+
+textarea {
+    border: 1px solid #E1E1E1;
+    height: 40px;
+    padding: 12px 14px;
+    margin: .5rem 0;
+
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 1;
+}
+
+#message {
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+::placeholder {
+    color: color(main-very-light);
+    font-size: size(s-size);
+}
+

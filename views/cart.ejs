@@ -1,0 +1,74 @@
+<%- include('./partials/headerSearchList.ejs')%>
+<%- include('./partials/nav.ejs')%>
+ 
+ <div class="cart-container">
+    <div class="cart-content">
+        <h2 class="section-header span-xxl">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total:</strong>
+            <span class="cart-total-price" id="cart-total-price">£ 0</span>
+        </div>
+        <div class="cart-buttons-wrapper">
+          <button class="continue-purchase-btn">Continue Purchase</button>
+          <button id="confirm-order" class="close-purchase-btn">Confirm Your Order</button>
+        </div>
+        <div class="span-xxl"></div>
+        <div id="order-summary"></div>
+    </div>
+
+    
+
+    <div id="shipping-form"></div>
+    
+
+
+<div id="payment-options" class="hide">
+        <div class="section-header section-header-payment">Choose Payment Option</div>
+
+        <div class="cart-payment-wrapper">
+            <form id="payment-form" class="cart-stripe-wrapper">
+                <input type="text" id="email" placeholder="Email address" class="hide" />
+                <div id="card-element"><!--Stripe.js injects the Card Element--></div>
+                <button id="submit" class="btn btn-primary btn-purchase button button-stripe button-stripe-my" type="button">
+                  <div class="spinner hidden" id="spinner"></div>
+                  <span id="button-text" class="button btn-purchase button-stripe button-span">Pay with Stripe</span>
+                </button>
+    
+                <p id="card-error" role="alert"></p>
+                <p class="result-message hidden">
+                  Payment succeeded, see the result in your
+                  <a href="" target="_blank">Stripe dashboard.</a> Refresh the page to pay again.
+                </p>
+            </form>
+            <div class="cart-paypal-wrapper">
+                <div id="paypal-button-container"></div>
+            </div>
+        </div>
+
+ 
+    </div>     
+
+
+
+</div>
+
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=<%= clientIdKey %>&currency=GBP"> // PAYPAL Required. Replace SB_CLIENT_ID with your sandbox client ID.
+    </script> 
+
+<script src="js/nav-total.js" defer></script>
+<script src="js/paypal.js" defer></script>
+<script src="js/stripe.js" defer></script>
+<script src="js/functions2.js" defer></script>
+<script src="js/cart.js" defer></script>
+<script src="js/search.js" defer></script>
+<script src="js/nav-other.js" defer></script>
+
+
+

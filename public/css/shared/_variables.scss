@@ -1,0 +1,57 @@
+:root {
+    --color-font: #474747;
+    --color-main: #2D3C39;
+    --color-outline: #e1e1e1;
+    --size-XS-font: 1.3rem;
+    --size-S-font: 1.4rem;
+    --size-M-font: 1.6rem;
+    --size-L-font: 1.9rem;
+
+}
+
+$colors: (
+    main: #474747,
+    primary: #2D3C39,
+    secondary: #3C2D30,
+    tertiary: #85646A,
+    light-gray: #e1e1e1,
+    main-light: lighten(#474747, 10%),
+    main-very-light: lighten(#474747, 20%),
+    primary-light: lighten(#2D3C39, 35%),
+    primary-very-light: lighten(#2D3C39, 38%),
+    primary-extreme-light: lighten(#2D3C39, 75%),
+    primary-dark: darken(#2D3C39, 20%)
+);
+
+$sizes: (
+    xs-size: 1.2rem,
+    s-size: 1.4rem,
+    m-size: 1.6rem,
+    l-size: 1.9rem,
+    xl-size: 2.9rem,
+    xxl-size: 4.8rem
+);
+
+$mobile: 57rem;
+$desktop: 45rem;
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+};
+
+@function size($size-name) {
+    @return map-get($sizes, $size-name)
+}

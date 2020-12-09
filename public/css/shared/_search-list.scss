@@ -1,0 +1,38 @@
+.search-section2 {
+    display: flex;
+    flex-direction: column;
+    border: .1px solid var(--color-outline);
+    height: 4.8rem;
+}
+
+#search-product2 {
+	padding: 0rem 0rem 0rem .6rem;
+	margin: 5px;
+	height: 38px;
+    width: 33rem;
+    border: none;
+    font-size: var(--size-S-font);
+    color: var(--color-font);
+}
+
+.search-menu-item {
+    list-style-type: none;
+    border-bottom: .1px solid var(--color-outline);
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    border: .1px solid var(--color-outline);
+    border-top: none;
+}
+
+.search-menu-item:last-child {
+    border-bottom: .1px solid var(--color-outline);
+}
+
+.inner-logo-and-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+

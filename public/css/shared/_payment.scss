@@ -1,0 +1,33 @@
+.cart-payment-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.result-message {
+    line-height: 22px;
+    font-size: 16px;
+}
+  
+.result-message a {
+    color: rgb(89, 111, 214);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.cart-stripe-wrapper {
+    margin: 1rem 7rem;
+    flex: 1;
+}
+
+.cart-paypal-wrapper {
+    flex: 1;
+    margin: 1rem 7rem;
+}
+

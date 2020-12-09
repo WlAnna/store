@@ -1,0 +1,24 @@
+.related-items-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.shop-item-image-related-product {
+  width: 100%;
+  max-width: 26rem;
+  height: auto;
+}
+
+.shop-item-related-title {
+  margin: 2rem 0;
+  display: block;
+}
+
+.related-item-single {
+  margin: 3rem;
+}
+/*# sourceMappingURL=related-products.css.map */

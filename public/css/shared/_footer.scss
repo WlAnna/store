@@ -1,0 +1,53 @@
+
+footer {
+    border-top: .1px solid color(light-gray);
+    margin-bottom: 6rem;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    margin: 2rem;
+}
+
+.footer-item:first-child {
+  max-width: 44rem;
+}
+
+.footer-contact {
+    list-style: none;
+    word-wrap: break-word;
+}
+
+.footer-email {
+    font-weight: bold;
+    color: color(primary);
+    margin: 0 .8rem 0 .8rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    padding: 0rem 2rem;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list li {
+    text-align: center;
+}

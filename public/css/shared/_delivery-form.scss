@@ -1,0 +1,66 @@
+.form-outline {
+    border: .1px solid color(light-gray);
+    margin: 0 auto;
+    width: 60%;
+    @include mobile {
+        width: 89%;
+      }
+
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-shipping {
+    margin: 4.8rem auto 0 auto;
+    width: 60%;
+}
+
+.form-wrapper {
+    padding: 8%;
+    @include mobile {
+        padding: 3%;
+      }
+}
+
+.form-wrapper-outer {
+margin-bottom: 15rem;
+}
+
+.form__section  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .5em;
+    flex-wrap: wrap;
+}
+
+.form__section > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+}
+
+.form__section  > input {
+    flex: 2;
+}
+ 
+form#cart-delivery-info {
+    margin: 0;
+    padding: 0;
+    height: 68rem;
+
+    @include mobile {
+         height: 61rem;
+      }
+
+}
+
+.button-stripe-my, .btn-purchase {
+    background-color: #32325d !important;
+}
+
+.section-header-payment {
+    margin-bottom: 4.8rem;
+}

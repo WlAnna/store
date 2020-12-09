@@ -1,0 +1,19 @@
+.related-items-section {
+    margin-bottom: 7rem;
+}
+
+.related-items-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @include mobile {
+        justify-content: center;
+      }
+
+}
+
+.related-product-content {
+    margin: 2rem;
+}
+
+

@@ -1,0 +1,39 @@
+<header>
+    <div class="header-details">
+        <div class="inner-logo-and-mobile"> 
+            <h1 class="header-logo"><a href="/products">LOGO</a></h1>
+            <div class="header-mobile-icons">
+                <div class="header-icon-search">
+                    <i class="fas fa-search icon"></i>
+                </div>
+                <div class="header-hamburger-menu" id="openBtn">
+                    <i class="fas fa-bars icon"></i>
+                </div>
+            </div>
+            <div class="header-search-hide">
+                <div class="header-search" ><%- include('../partials/searchList.ejs')%></div>
+                <a href="/cart">
+                    <div class="header-shopping-cart">
+                        <i class="fas fa-shopping-cart icon"></i>     
+                        <div class="header-total" id="nav-total-2">0.00</div>
+                    </div>
+                </a>
+
+            </div> 
+
+        </div>
+
+    </div>
+
+</header>
+
+<div id="mySidepanel" class="sidepanel">
+    <a  id="closeBtn" >x</a>
+    <a href="#">All Products</a>
+    <a href="#">New Arrivals</a>
+    <a href="#">Clothes</a>
+    <a href="#">Accessories</a>
+    <a href="#">SPA</a>
+    <a href="#">Home and Garden</a>
+  </div>
+  

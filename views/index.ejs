@@ -1,0 +1,60 @@
+      <section class="container content-section">
+        <h2 class="section-header" >MUSIC</h2>
+        <div class="shop-items" id="products" >
+            <% items.products.forEach(function(item){ %>
+                <div class="shop-item" data-item-id="<%= item.productID %>">
+                    <p><a target="_blank" href="/store/<%= item.productID %>"><img class="shop-item-image" height="272" width="200" src="<%= item.productImage %>"></a><p>
+                    <span class="shop-item-title"><%= item.productName %></span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><%= item.productPriceFormated %></span>
+                        <label for="quantity"></label>
+             <input type="number" id="quantity" name="quantity" class="shop-item-quantity" value="1">
+                        <a href="/cart" class="btn btn-primary shop-item-button">ADD TO CART</a>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">£ 0</span>
+        </div>
+
+
+
+        <form id="payment-form">
+            <input type="text" id="email" placeholder="Email address" />
+            <div id="card-element"><!--Stripe.js injects the Card Element--></div>
+            <button id="submit" class="btn btn-primary btn-purchase" type="button">
+              <div class="spinner hidden" id="spinner"></div>
+              <span id="button-text" class="button">Pay</span>
+            </button>
+            <p id="card-error" role="alert"></p>
+            <p class="result-message hidden">
+              Payment succeeded, see the result in your
+              <a href="" target="_blank">Stripe dashboard.</a> Refresh the page to pay again.
+            </p>
+          </form>
+    </section>
+
+    <div id="confirm-order">Confirm Your Order</div>
+
+    <section>
+        <div id="paypal-button-container"></div>
+    </section>
+
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=<%= clientIdKey %>"> // PAYPAL Required. Replace SB_CLIENT_ID with your sandbox client ID.
+    </script> 
+
+<script src="js/index.js" defer></script>

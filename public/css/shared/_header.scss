@@ -1,0 +1,141 @@
+header {
+    padding: 4rem 0;   
+      @include mobile {
+        padding: 0; 
+        margin: 0;
+    }
+}
+
+.header-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+    @include mobile {
+  
+      margin: 0 1rem;
+      justify-content: space-between;
+    }
+}
+
+.header-search-hide {
+    @include mobile {
+      display: none;
+    }
+}
+
+
+
+.header-logo {
+    @include mobile {
+      margin-right: 70%;
+      font-size: size(xl-size);
+    }
+}
+
+
+
+.header-shopping-cart {
+  display: flex;
+  align-items: center;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+
+.number-circle {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.2rem;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    right: 2rem;
+    bottom: 1rem;
+    font-size: size(s-size)
+}
+
+.icon {
+  font-size: size(m-size);
+  padding-right: 1.5rem;
+  @include mobile {
+    padding-right: 1.5rem;
+    color: var(--color-main);
+    font-size: size(l-size);
+    
+  }    
+}
+
+.header-mobile-icons {
+  display: none;
+  @include mobile {
+    display: flex;
+    flex-direction: row;
+   
+  }
+}
+
+/*Hamburger Navigation*/
+
+
+  .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 3px 0px rgba(0,0,0,.25);
+  
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 2.1rem 0rem 2.1rem 3.2rem;
+    text-decoration: none;
+    font-size: size(size-s);
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border-bottom: .1px solid color(light-gray);
+  }
+  
+  .sidepanel a:first-child {
+    font-size: size(m-size);
+  }
+  .sidepanel a:hover {
+    color: color(main-light);
+  }
+  
+  .sidepanel .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+.mobile-show {
+
+  display: none;
+  @include mobile {
+    display: block;
+  }
+
+}
+
+#closeBtn {
+  display: none;
+  @include mobile {
+    display: block;
+  }
+}
